@@ -9,3 +9,9 @@ function Gallery($scope, $http){
 		$scope.galleries = data; // response data 
 	});
 }
+
+function Founder($scope, $http) {
+ 	$http.get('http://swapi.co/api/people/7/').success(function(data) {
+     	$scope.founder = data;
+  	});
+}

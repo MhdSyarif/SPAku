@@ -1,4 +1,4 @@
-<div id="main-container" class="container">
+<div ng-controller="Founder" id="main-container" class="container">
 	<div class="row">
 		<div class="col-sm-6 col-md-8">
 			<div class="panel panel-default">
@@ -6,17 +6,20 @@
 			    <h3 class="panel-title">{{title}}</h3>
 			  </div>
 			  <div class="panel-body">
-			    Ut fringilla ac metus rhoncus sollicitudin. Curabitur at sagittis justo, eu laoreet lectus. Mauris augue ex, consectetur ac pellentesque ac, feugiat lacinia eros. Ut bibendum mi in imperdiet feugiat. Duis porttitor dapibus odio vitae rutrum. Nullam viverra risus et lacus scelerisque laoreet. Donec est purus, convallis posuere scelerisque sit amet, porttitor vitae turpis. Quisque ut sagittis quam, ornare hendrerit tortor. Aliquam erat volutpat. Ut at felis egestas, laoreet lorem et, suscipit est.
+			    <p>Ut fringilla ac metus rhoncus sollicitudin. Curabitur at sagittis justo, eu laoreet lectus. Mauris augue ex, consectetur ac pellentesque ac, feugiat lacinia eros. Ut bibendum mi in imperdiet feugiat. Duis porttitor dapibus odio vitae rutrum. Nullam viverra risus et lacus scelerisque laoreet. Donec est purus, convallis posuere scelerisque sit amet, porttitor vitae turpis. Quisque ut sagittis quam, ornare hendrerit tortor. Aliquam erat volutpat. Ut at felis egestas, laoreet lorem et, suscipit est.</p>
 
-				Ut consequat velit a metus accumsan, vel tempor nulla blandit. Integer euismod magna vel mi congue suscipit. Praesent quis facilisis neque. Donec scelerisque nibh vitae sapien ornare efficitur. Nullam auctor commodo convallis.
+				<p>Ut consequat velit a metus accumsan, vel tempor nulla blandit. Integer euismod magna vel mi congue suscipit. Praesent quis facilisis neque. Donec scelerisque nibh vitae sapien ornare efficitur. Nullam auctor commodo convallis.</p>
 
-				In vitae nunc dui. Sed in mauris imperdiet, tincidunt mauris eget, molestie eros. Aliquam id convallis diam. Quisque eget turpis molestie, aliquet magna quis, posuere massa.
+				<p>In vitae nunc dui. Sed in mauris imperdiet, tincidunt mauris eget, molestie eros. Aliquam id convallis diam. Quisque eget turpis molestie, aliquet magna quis, posuere massa.</p>
+				
 			  </div>
 			</div>
 		</div>
 		<div class="col-sm-4 col-md-4">
 			<div class="thumbnail">
 				<img src="assets/img/about-1.png" alt="...">
+				<h4>Founder : {{founder.name}} </h4>
+				<h4>Height : {{founder.height}} </h4>
 		    </div>
 		</div>
 	</div>

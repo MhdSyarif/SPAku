@@ -1,12 +1,11 @@
 <div id="main-container" class="container">
-	<div ng-controller="Article" class="row">
-	  	<div ng-repeat="article in articles" class="col-sm-4 col-md-4">
+	<div ng-controller="Gallery" class="row">
+	  	<div ng-repeat="gallery in galleries" class="col-sm-4 col-md-4">
 		    <div class="thumbnail">
-				<img src="app/img/slider-1.jpg" alt="...">
+				<img src="{{gallery.banner}}" alt="...">
 				<div  class="caption">
-					<h3>{{article.article_name}}</h3>
-					<p>{{article.article_description}}</p>
-					<p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+					<h3>{{gallery.title}}</h3>
+					<p>{{gallery.description}}</p>
 				</div>
 		    </div>
 	  	</div>

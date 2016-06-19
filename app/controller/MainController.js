@@ -1,8 +1,12 @@
 app.controller('MainController', ['$scope', function($scope) { 
   $scope.title  = 'SPAku';
-  $scope.slide1 = 'WELCOME To SPA'; 
-  $scope.slide2 = 'BEAUTY'; 
-  $scope.slide3 = 'RELAXY'; 
+  $scope.title1 = 'WELCOME To SPAku';
+  $scope.span   =  'SPAku features a highly trained group of certified massage therapists who are dedicated to helping clients improve their health and achieve a balanced lifestyle';
+  $scope.img1   = 'assets/img/slider-1.jpg';
+  $scope.title2 = 'BEAUTY';
+  $scope.img2   =  'assets/img/slider-2.jpg';
+  $scope.title3 =  'RELAXY';
+  $scope.img3   =  'assets/img/slider-4.jpg';
 
   $scope.contents = [
     {
